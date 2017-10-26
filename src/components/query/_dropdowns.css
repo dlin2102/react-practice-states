@@ -1,0 +1,18 @@
+.dropdowns{
+  padding-bottom: 40px;
+}
+#stateDropdown{
+  
+}
+
+@media (max-width: 395px){
+  .dropdowns{
+    display: flex;
+    flex-direction: column;
+  }
+  #stateDropdown, #electionDropdown, #submitbtn{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+  }
+}
